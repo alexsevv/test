@@ -3,7 +3,7 @@
 require_relative "lib/test"
 require_relative "lib/result_printer"
 
-puts "Ваш уровень общительности. Тест поможет определить ваш уровень "
+puts "Ваш уровень общительности. Тест поможет определить ваш уровень комуникабельности"
 
 test = Test.new
 result_printer = ResultPrinter.new
