@@ -4,7 +4,7 @@ class ResultPrinter
 
   def initialize
     current_path = File.dirname(__FILE__)
-    result_path = current_path + "/data/result.txt"
+    result_path = current_path + "/../data/result.txt"
     unless File.exist?(result_path)
       abort 'Файл с ответами не найден!'
     end

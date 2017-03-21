@@ -4,7 +4,7 @@ class Test
 
   def initialize
     current_path = File.dirname(__FILE__)
-    questions_path = current_path + "/data/questions.txt"
+    questions_path = current_path + "/../data/questions.txt"
     unless File.exist?(questions_path)
       abort 'Файл с вопросами не найден!'
     end
