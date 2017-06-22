@@ -1,5 +1,4 @@
 # encoding: utf-8
-
 require_relative "lib/test"
 require_relative "lib/result_printer"
 

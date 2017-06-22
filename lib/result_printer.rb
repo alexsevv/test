@@ -1,7 +1,4 @@
-# encoding: utf-8
-
 class ResultPrinter
-
   def initialize
     current_path = File.dirname(__FILE__)
     result_path = current_path + "/../data/result.txt"
