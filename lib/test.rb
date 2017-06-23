@@ -5,9 +5,7 @@ class Test
   def initialize
     current_path = File.dirname(__FILE__)
     questions_path = current_path + "/../data/questions.txt"
-    unless File.exist?(questions_path)
-      abort 'Файл с вопросами не найден!'
-    end
+
     questions_file = File.new(questions_path, "r:UTF-8")
     @questions = questions_file.readlines
     questions_file.close
